@@ -93,6 +93,17 @@ body {
   border: 2px solid #ffffff;
 }
 
+.btn--white:hover {
+  color: #ec7979;
+  border-color: #ec7979;
+}
+
+.btn--white:active {
+  color: #ffffff;
+  border-color: #ab4949;
+  background-color: #ab4949;
+}
+
 .hero__form {
   position: absolute;
   top: 283px;
