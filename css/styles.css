@@ -611,6 +611,13 @@ body {
 .banner__btn {
   min-width: 370px;
 }
+
+/* ----------------------- contact section ----------------- */
+
+.contact {
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
 /* ------------------------- footer section------------------ */
 
 .footer {
