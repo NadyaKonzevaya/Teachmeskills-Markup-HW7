@@ -18,12 +18,12 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <header class="header">
+    <header class="header">
         <div class="container header__container">
           <a href="">
-            <svg class="logo header__logo"  aria-label="Логотип компании"><use  href="./images/symbol-defs.svg#icon-logo"></use></svg>
+            <svg class="logo header__logo"  aria-label="Логотип компании">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
           </a>
           <div class="header__wrap">
             <nav class="nav">
@@ -49,9 +49,10 @@
 
         </div>
       </header>
+    <main>
       <section class="hero">
         <div class="container">
-          <svg class="logo"  aria-label="Логотип компании"><use  href="./images/symbol-defs.svg#icon-logo"></use></svg>
+          <svg class="logo"  aria-label="Логотип компании"><use  href="./images/icons.svg#icon-logo"></use></svg>
          <h1 class="hero__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
         <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
          <a
@@ -63,6 +64,67 @@
               </a>  
               <div class="hero__form"></div>
       </div>
+      </section>
+      <section class="social">
+        <div class="container social__container">
+          <div class="social__text-wrap">
+            <h3 class="about__list__title">
+              Social Media
+            </h3>
+            <p class="social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+          </div>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener nofollow norefferer" class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://twitter.com/" target="_blank" rel="noopener nofollow norefferer"  class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener nofollow norefferer"  class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.pinterest.com/" target="_blank" rel="noopener nofollow norefferer" class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener nofollow norefferer" class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://github.com/" target="_blank" rel="noopener nofollow norefferer" class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://rss.com/" target="_blank" rel="noopener nofollow norefferer" class="social__link">
+                <svg class="social__icons">
+                  <use href="./images/icons.svg#icon-rss"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="tabs">
         <div class="container">
@@ -106,15 +168,16 @@
       <section class="about" id="about">
         <div class="container">
           <h2 class="title">WHY THIS IS AWESOME</h2>
-          <p class="text">
+          <p class="text about__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <ul class="about__list">
             <li class="about__list__item">
-              <div class="about__list__svg icon1"></div>
-              <!-- <svg class="about__list__icon" width="92" height="92">
-                <use href="/images/symbol-defs.svg#icon-about-1"></use>
-              </svg> -->
+              <div class="about__circle">
+                <svg class="icon-bulb">
+                  <use href="./images/icons.svg#icon-bulb"></use>
+                </svg>
+              </div>
               <h3 class="about__list__title">Thoughtful Design</h3>
               <p class="about__list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -123,7 +186,11 @@
               </p>
             </li>
             <li class="about__list__item">
-              <div class="about__list__svg icon2"></div>
+               <div class="about__circle">
+                <svg class="icon-keyboard">
+                  <use href="./images/icons.svg#icon-keyboard"></use>
+                </svg>
+              </div>
               <h3 class="about__list__title">Thoughtful Design</h3>
               <p class="about__list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -132,7 +199,11 @@
               </p>
             </li>
             <li class="about__list__item">
-              <div class="about__list__svg icon3"></div>
+               <div class="about__circle">
+                <svg class="icon-lightning">
+                  <use href="./images/icons.svg#icon-lightning"></use>
+                </svg>
+              </div>
               <h3 class="about__list__title">Thoughtful Design</h3>
               <p class="about__list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean

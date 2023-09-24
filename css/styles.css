@@ -37,6 +37,12 @@ body {
   text-transform: capitalize;
 }
 
+.text {
+  margin-bottom: 80px;
+
+  color: #86878b;
+}
+
 /* ------------------------------------- header -------------------------- */
 .header {
   position: fixed;
@@ -53,6 +59,19 @@ body {
 .header__container {
   display: flex;
   justify-content: space-between;
+}
+
+.logoAX {
+  width: 100%;
+
+  fill: #ffffff;
+}
+
+.logoIT {
+  width: 31px;
+  height: 32px;
+
+  fill: #ec7979;
 }
 
 .header__logo {
@@ -74,8 +93,8 @@ body {
   min-width: 114px;
 }
 .nav__link {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 28px;
+  padding-bottom: 28px;
 
   color: #fff;
 }
@@ -165,6 +184,48 @@ body {
   border-radius: 10px;
 }
 
+/* ----------------------------- social section -------------------------------------- */
+.social {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 140px;
+
+  background-color: #f8efef;
+}
+
+.social__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__text-wrap {
+  max-width: 470px;
+  margin-right: 30px;
+  text-align: start;
+}
+.social__text {
+  color: #86878b;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.social__icons {
+  width: 70px;
+  height: 70px;
+  /* margin-right: 30px; */
+  fill: #cccccc;
+}
+.social__icons:hover {
+  fill: #ec7979;
+}
+
+/* .social__icons:last-child {
+  margin-right: 0;
+} */
 /*------------------------------ tabs section ------------------------------------*/
 
 .tabs {
@@ -282,12 +343,9 @@ body {
   background-color: #ec7979;
 }
 
-.text {
-  margin-bottom: 71px;
-
-  color: #86878b;
+.about__text {
+  margin-bottom: 110px;
 }
-
 .about__list {
   display: flex;
   justify-content: space-between;
@@ -303,6 +361,39 @@ body {
 
 .about__list__icon {
   border: 1px solid;
+}
+
+.about__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 92px;
+  height: 92px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 80px;
+
+  color: #ec7979;
+  border: 1px solid #ec7979;
+  border-radius: 50%;
+}
+
+.icon-bulb {
+  width: 72px;
+  /* height: 72px; */
+  fill: currentColor;
+}
+
+.icon-keyboard {
+  width: 66px;
+  /* height: 46px; */
+  fill: currentColor;
+}
+
+.icon-lightning {
+  height: 66px;
+  fill: currentColor;
 }
 .about__list__svg {
   width: 170px;
