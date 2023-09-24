@@ -580,3 +580,34 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+
+/* -------------------- banner section -------------------- */
+.banner {
+  /* position: relative; */
+
+  margin: 0 auto;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  max-width: 1510px;
+  height: 442px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('../images/hero-bg.png'), url('../images/banner_img.jpg');
+}
+
+.banner__title {
+  color: #ffffff;
+}
+
+.banner__title:after {
+  background-color: #fff;
+}
+
+.text--white {
+  color: #ffffff;
+  margin-bottom: 73px;
+}
+
+.banner__btn {
+  min-width: 370px;
+}
