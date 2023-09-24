@@ -611,3 +611,73 @@ body {
 .banner__btn {
   min-width: 370px;
 }
+/* ------------------------- footer section------------------ */
+
+.footer {
+  height: 164px;
+  padding-top: 35px;
+  padding-left: 27px;
+
+  background-color: #000000;
+}
+.footer__container {
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.footer__icons {
+  width: 53px;
+  height: 53px;
+  fill: #cccccc;
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* .footer__icons:hover {
+  fill: #ec7979;
+} */
+
+.icon-facebook:hover {
+  transform: scale(1.5);
+
+  fill: #ec7979;
+}
+.icon-twitter:hover {
+  transform: scale(1.5) translateY(20px);
+
+  fill: #79c2ec;
+}
+
+.icon-linkedin:hover {
+  transform: scale(1.5) rotate(1turn);
+
+  fill: #ecb679;
+}
+
+.icon-pinterest:hover {
+  transform: scale(1.5) skew(30deg);
+
+  fill: #f570f5;
+}
+
+.icon-instagram:hover {
+  transform: scale(0.5);
+
+  fill: #74f570;
+}
+
+.icon-github:hover {
+  transform: perspective(400px) rotateX(360deg) scale(1.5);
+
+  fill: #f5ec70;
+}
+
+.icon-rss:hover {
+  transform: perspective(400px) rotateY(360deg) scale(1.5);
+
+  fill: #70daf5;
+}
+.footer__text {
+  color: #ffffff;
+  margin-top: 28px;
+}
