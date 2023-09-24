@@ -20,9 +20,38 @@
   <body>
     <header></header>
     <main>
+      <header class="header">
+        <div class="container header__container">
+          <a href="">
+            <svg class="logo header__logo"  aria-label="Логотип компании"><use  href="./images/symbol-defs.svg#icon-logo"></use></svg>
+          </a>
+          <div class="header__wrap">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#features" class="nav__link">Features</a>
+                </li>
+                 <li class="nav__item">
+                  <a href="#about" class="nav__link">About</a>
+                </li>
+                 <li class="nav__item">
+                  <a href="#pricing" class="nav__link">Pricing</a>
+                </li>
+                 <li class="nav__item">
+                  <a href="#reviews" class="nav__link">Reviews</a>
+                </li>
+                 <li class="nav__item">
+                  <a href="#contact" class="nav__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </header>
       <section class="hero">
         <div class="container">
-          <svg class="icon icon-logo"  aria-label="Логотип компании"><use  href="./images/symbol-defs.svg#icon-logo"></use></svg>
+          <svg class="logo"  aria-label="Логотип компании"><use  href="./images/symbol-defs.svg#icon-logo"></use></svg>
          <h1 class="hero__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
         <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
          <a
@@ -74,7 +103,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2 class="title">WHY THIS IS AWESOME</h2>
           <p class="text">
@@ -114,7 +143,7 @@
           </ul>
         </div>
       </section>
-      <section class="pricing">
+      <section class="pricing" id="pricing">
         <div class="container">
           <h2 class="title">PRICING OPTIONS</h2>
           <p class="text">
@@ -158,7 +187,7 @@
           </div>
         </div>
       </section>
-      <section class="reviews">
+      <section class="reviews" id="reviews">
         <div class="container">
           <h2 class="title">what our customers are saying</h2>
           <p class="text">
