@@ -99,7 +99,8 @@ body {
   color: #fff;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
   background-color: #ec7979;
 }
 
@@ -163,7 +164,8 @@ body {
   border: 2px solid #ffffff;
 }
 
-.btn--white:hover {
+.btn--white:hover,
+.btn--white:focus {
   color: #ec7979;
   border-color: #ec7979;
 }
@@ -219,7 +221,8 @@ body {
   /* margin-right: 30px; */
   fill: #cccccc;
 }
-.social__icons:hover {
+.social__icons:hover,
+.social__icons:focus {
   fill: #ec7979;
 }
 
@@ -302,7 +305,8 @@ body {
   background-color: #ec7979;
 }
 
-.btn--pink:hover {
+.btn--pink:hover,
+.btn--pink:focus {
   background-color: #ab4949;
 }
 
@@ -456,10 +460,8 @@ body {
   background-color: #333333;
 }
 
-.pricing__list:hover {
-  /* position: absolute;
-  top: -20px;
-  left: 0; */
+.pricing__list:hover,
+.pricing__list:focus {
   transform: translateY(-20px);
   box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
   cursor: pointer;
@@ -644,41 +646,48 @@ body {
   fill: #ec7979;
 } */
 
-.icon-facebook:hover {
+.icon-facebook:hover,
+.icon-facebook:focus {
   transform: scale(1.5);
 
   fill: #ec7979;
 }
-.icon-twitter:hover {
+.icon-twitter:hover,
+.icon-twitter:focus {
   transform: scale(1.5) translateY(20px);
 
   fill: #79c2ec;
 }
 
-.icon-linkedin:hover {
+.icon-linkedin:hover,
+.icon-linkedin:focus {
   transform: scale(1.5) rotate(1turn);
 
   fill: #ecb679;
 }
 
-.icon-pinterest:hover {
+.icon-pinterest:hover,
+.icon-pinterest:focus {
   transform: scale(1.5) skew(30deg);
 
   fill: #f570f5;
 }
 
+.icon-instagram:hover,
 .icon-instagram:hover {
   transform: scale(0.5);
 
   fill: #74f570;
 }
 
+.icon-github:hover,
 .icon-github:hover {
   transform: perspective(400px) rotateX(360deg) scale(1.5);
 
   fill: #f5ec70;
 }
 
+.icon-rss:hover,
 .icon-rss:hover {
   transform: perspective(400px) rotateY(360deg) scale(1.5);
 
